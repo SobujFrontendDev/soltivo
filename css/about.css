@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+/* ============================
+common css end 
+============================
+============================
+navbar part css 
+============================ */
+
+#navbarmain{
+    width: 100%;
+}
+.menu-up{
+    background-color: #1f476f;
+    color: #fff;
+    padding-left:50px;
+    line-height: 40px;
+}
+.menuup-last a{
+    color: #fff;
+    padding: 0px 5px;
+}
+.menuup-last{
+    text-align: end;
+}
+.menuup-last-p{
+    background-color: #5830e0;
+    height: 100%;
+    text-align: center;
+}
+.navtoprow{
+    background-color: #fff;
+    padding: 25px 50px;
+    color: #1f476f;
+}
+
+.navbar {
+	--bs-navbar-padding-y: 0rem;
+    padding: 0px 45px;
+}
+.navbg{
+    background-color: #fff;
+}
+.navbar-collapse{
+    padding: 7px 0;
+}
+.navbar-nav .nav-link{
+	color: #bbbbbb !important;
+}
+.navbar-nav a:hover{
+	color: #222222 !important;
+}
+.navbar-nav a{
+	font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding-right: 55px !important;
+}
+.quick-search-input {
+	width: 250px;
+	height: 35px;
+	font-size: .85em;
+	font-weight: bold;
+	color: #919191;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	padding: 4px 30px;
+}
+.searicon i {
+	padding: 10px;
+	color: #b4b4b4;
+}
+.call{
+    position: relative;
+    padding-left: 45px;
+}
+.call i {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 40px;
+	width: 40px;
+	background-color: #f0ebff;
+	line-height: 40px;
+	padding-left: 12px;
+	border-radius: 50%;
+}
+.call p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.call h4{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.time {
+	position: relative;
+	padding-left: 45px;
+}
+.time p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+}
+.time h4{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.time i {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 40px;
+	width: 40px;
+	background-color: #f0ebff;
+	line-height: 40px;
+	padding-left: 12px;
+	border-radius: 50%;
+}
+/* ============================
+about banner part css 
+============================ */
+#about-banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.877),rgba(0, 0, 0, 0.87)) , url(../images/banner1.jpg) no-repeat center / cover;
+    color: #fff;
+}
+.bnr{
+    padding: 165px 0;
+}
+.banner-left h6{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #00a27c;
+}
+.banner-left h3{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+.banner-right{
+    text-align: end;
+}
+.banner-right a {
+	color: #999999;
+	padding-right: 10px;
+	border-right: 2px solid #fff;
+}
+.banner-right a:last-child{
+    border: none;
+    color: #fff;
+}
+/* ============================
+about about part css 
+============================ */
+.about-top {
+	margin: 110px 0;
+}
+.about-top img{
+	width: 100%;
+}
+.about-text{
+    padding-top: 24px;
+}
+.about-text h6 {
+	color: #e74d58;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+}
+.about-text h3{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    padding-top: 20px;
+    color: #002e5b;
+}
+.about-text p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #777777;
+}
+.about-text h5{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 25px 0;
+    color: #002e5b;
+}
+.about-text h5 span{
+    padding-left: 40px;
+}
+.about-text a {
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
+	background-color: #002e5b;
+	padding: 15px 45px;
+	margin-top: 20px;
+}
+/* ============================
+about people part css 
+============================ */
+#people{
+    background-color: #f6f6f6;
+    padding: 120px 0;
+}
+.people-head h6{
+    font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+    color: #e74d58;
+}
+.people-head h3{
+    font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+    color: #002e5b;
+}
+.all-item{
+    padding-top: 60px;
+}
+.people-item{
+    background-color: #fff;
+    padding: 50px;
+}
+.people-item h2{
+    font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 80px;
+}
+.people-item h6{
+    font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+    color: #002e5b;
+}
+.people-item p{
+    font-family: 'DM Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+    color: #adadad;
+}
+/* ============================
+about logo part css 
+============================ */
+#aboutlogo {
+	background-color: #f4f4f4;
+}
+.aboutlogo-img img{
+    height: 260px;
+    width: 100%;
+}
+/* ============================
+about skill part css 
+============================ */
+#skill{
+    padding: 125px 0;
+}
+.skill-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.skill-head h5{
+    font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+    color: #e74d58;
+}
+.skill-head h6{
+    font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+	font-size: 45px;
+    color: #002e5b;
+}
+
+
