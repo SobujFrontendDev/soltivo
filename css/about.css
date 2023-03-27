@@ -271,7 +271,7 @@ about people part css
 about logo part css 
 ============================ */
 #aboutlogo {
-	background-color: #f4f4f4;
+	background-color: #ebebeb;
 }
 .aboutlogo-img img{
     height: 260px;
@@ -300,5 +300,194 @@ about skill part css
 	font-size: 45px;
     color: #002e5b;
 }
+/* ============================
+answer skill part css 
+============================ */
+#answer{
+    background-color: #e0e0e0;
+    padding: 120px 0;
+}
+.answer-part{
+    column-gap: 30px;
+}
+.answer-img img{
+    width: 100%;
+}
+.answer-head h6{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #e74d58;
+}
+.answer-head h2{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #002e5b;
+}
+/* ============================
+news skill part css 
+============================ */
+#news{
+    padding: 120px 0;
+}
+.news-head h6{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #e74d58;
+}
+.news-head h2{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #002e5b;
+}
+.news-img img{
+    width: 100%;
+}
+.news-text{
+    padding: 40px;
+}
+.news-item-one{
+    position: relative;
+    border: 1px solid #f6f6f6;
+}
+.news-date-one {
+	position: absolute;
+	bottom: 140px;
+	right: 35px;
+	background-color: #00cb9b;
+	text-align: center;
+	height: 72px;
+	width: 72px;
+	padding-top: 10px;
+}
+.news-item-one h2{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+}
+.news-item-one h3{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+.news-item-one h6{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+    position: relative;
+}
+.news-item-one h6::after {
+	position: absolute;
+	content: "";
+	right: 0;
+	top: 4px;
+	height: 10px;
+	width: 1px;
+	background-color: #777777;
+}
+.news-item-one h6 span{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #c8c8c8;
+}
+.news-item-one h5{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #88e7d0;
+}
+.news-item-one h4{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #002e5b;
+}
+.news-date-two {
+	position: absolute;
+	bottom: 140px;
+	right: 35px;
+	background-color: #e74d58;
+	text-align: center;
+	height: 72px;
+	width: 72px;
+	padding-top: 10px;
+}
+.news-color-middle h5{
+    color: #e74d58;
+}
+.news-color-last h5{
+    color: #5730de;
+}
+.news-date-three {
+	position: absolute;
+	bottom: 140px;
+	right: 35px;
+	background-color: #5730de;
+	text-align: center;
+	height: 72px;
+	width: 72px;
+	padding-top: 10px;
+}
+/* ============================
+footer part css 
+============================  */
+footer{
+	background-color: #f7f7f7;
+	padding: 60px 0;
+}
+.foot-logo p{
+	font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+	color: #999999;
+	padding: 20px 0;
+}
+.number {
+	background-color: #fff;
+	width: 221px;
+	padding: 10px 20px;
+}
+.number h6{
+	font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.number p{
+	font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+	color: #d83f0a;
+	padding: 0px;
+}
+.foot-touch h4{
+	font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+	padding-bottom: 22px;
+}
+.foot-touch p {
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #999999;
+	line-height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
